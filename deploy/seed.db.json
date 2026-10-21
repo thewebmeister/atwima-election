@@ -1,0 +1,1478 @@
+{
+ "version": 1,
+ "users": [
+  {
+   "id": "71266613ff1e30d513",
+   "name": "System Administrator",
+   "username": "admin",
+   "passHash": "scrypt$691ebff55b0e71d4641c2569e3948eb9$e8a61944b957bee74d37e3d966ee6fd83d7a28b87350d7d917284c181dda7760651039431acf02b1a5eab913a6e5dd45ce5e34bc75ca8d13247ec1b0effaa714",
+   "role": "admin",
+   "active": true,
+   "createdAt": "2026-10-18T19:29:08.659Z",
+   "createdBy": "system",
+   "lastLoginAt": "2026-10-21T13:18:12.819Z",
+   "_token": "dad34583f1468b2ed780aa316d8b98fcb2719d6587829d4b"
+  },
+  {
+   "id": "1748f01d43cb1e332e",
+   "name": "Sample Branch Officer",
+   "username": "officer",
+   "passHash": "scrypt$2bf1f6f50dc1d1b869fba8ba660bf0be$37c8ce601f7581f2b1f7c17bc46746de941f3cdd5b6c0934f21c1dddac36a463d92141681889261332edbf6fb905247417d7fdd3eabcdb48c231dc75b9d32df4",
+   "role": "officer",
+   "active": true,
+   "createdAt": "2026-10-18T19:29:08.724Z",
+   "createdBy": "system",
+   "lastLoginAt": "2026-10-21T13:18:59.592Z",
+   "_token": "0243ac3a7451bc2103e8b4b6088ebeef944e9df20c51c086"
+  }
+ ],
+ "sessions": {},
+ "branches": [
+  {
+   "id": "3ffc52f241ab08478e",
+   "code": "F160101A",
+   "area": "Atwima Boko",
+   "name": "Boko R/C Prim. Sch"
+  },
+  {
+   "id": "21894b32ec9f854305",
+   "code": "F160101B",
+   "area": "Atwima Boko",
+   "name": "Boko R/C Prim. Sch"
+  },
+  {
+   "id": "57ff4290394c0954ba",
+   "code": "F160102",
+   "area": "Atwima Boko",
+   "name": "Abrewa Borga Boko"
+  },
+  {
+   "id": "a9206b52e311109462",
+   "code": "F160103",
+   "area": "Atwima Boko",
+   "name": "Ahenkro Community Centre Boko"
+  },
+  {
+   "id": "772be50b068c8b48f3",
+   "code": "F160104A",
+   "area": "Atwima Boko",
+   "name": "Mosque Boko"
+  },
+  {
+   "id": "36c88bc3e322b1cdc8",
+   "code": "F160104B",
+   "area": "Atwima Boko",
+   "name": "Mosque Boko"
+  },
+  {
+   "id": "ceedf48f2ca2eb0044",
+   "code": "F160105",
+   "area": "Atwima Boko",
+   "name": "Pentecost Church Boko"
+  },
+  {
+   "id": "3034f512df824b15dc",
+   "code": "F160106",
+   "area": "Atwima Boko",
+   "name": "Teacher's Quarters Boko"
+  },
+  {
+   "id": "aa265130a13e24eae7",
+   "code": "F160201A",
+   "area": "Twedie",
+   "name": "Meth Prim Twedie"
+  },
+  {
+   "id": "87b54b4bfec576684e",
+   "code": "F160201B",
+   "area": "Twedie",
+   "name": "Meth Prim Twedie"
+  },
+  {
+   "id": "a848d08ffd3dc75378",
+   "code": "F160202",
+   "area": "Twedie",
+   "name": "Presby Church Twedie"
+  },
+  {
+   "id": "a66d1afa603a5c4174",
+   "code": "F160203A",
+   "area": "Twedie",
+   "name": "D/A Prim Twedie"
+  },
+  {
+   "id": "511364b38c75569908",
+   "code": "F160203B",
+   "area": "Twedie",
+   "name": "D/A Prim Twedie"
+  },
+  {
+   "id": "355652c7fc517faeab",
+   "code": "F160204A",
+   "area": "Twedie",
+   "name": "Iccess Centre Twedie"
+  },
+  {
+   "id": "bddc626b75bc17c282",
+   "code": "F160204B",
+   "area": "Twedie",
+   "name": "Iccess Centre Twedie"
+  },
+  {
+   "id": "45c06d0de29b969f52",
+   "code": "F160301",
+   "area": "Foase",
+   "name": "Meth Prim Sch Foase"
+  },
+  {
+   "id": "ab2fe1f5df2e7c5816",
+   "code": "F160302",
+   "area": "Foase",
+   "name": "Deeper Life Church Foase"
+  },
+  {
+   "id": "b8a7608981b8c66748",
+   "code": "F160303",
+   "area": "Foase",
+   "name": "R/C Church Foase"
+  },
+  {
+   "id": "5553634785987f0190",
+   "code": "F160304",
+   "area": "Foase",
+   "name": "Foase Mosque"
+  },
+  {
+   "id": "8791a22e16f59a813f",
+   "code": "F160401",
+   "area": "Kobriso/Foase",
+   "name": "D/A J H S Foase"
+  },
+  {
+   "id": "a44b3871e87d2a717d",
+   "code": "F160402",
+   "area": "Kobriso/Foase",
+   "name": "Education Office Foase"
+  },
+  {
+   "id": "550b5283be7a1574fb",
+   "code": "F160403",
+   "area": "Kobriso/Foase",
+   "name": "Pentecost Church Foase"
+  },
+  {
+   "id": "9e9768f56716933d40",
+   "code": "F160404",
+   "area": "Kobriso/Foase",
+   "name": "Apatakesie Ase Foase"
+  },
+  {
+   "id": "6a32cd7fce18d2b80f",
+   "code": "F160501",
+   "area": "Trabuom",
+   "name": "R/C Prim Trabuom"
+  },
+  {
+   "id": "3ed89f8d90208b7f8b",
+   "code": "F160502",
+   "area": "Trabuom",
+   "name": "R/C JHS Trabuom"
+  },
+  {
+   "id": "87e3b45ad5ba6e5a0e",
+   "code": "F160503",
+   "area": "Trabuom",
+   "name": "CMB Shed Trabuom"
+  },
+  {
+   "id": "47cad1fffbe6a0ee7a",
+   "code": "F160504",
+   "area": "Trabuom",
+   "name": "Hwidiem CMB Shed"
+  },
+  {
+   "id": "82e66ec094d7ded523",
+   "code": "F160505",
+   "area": "Trabuom",
+   "name": "D/A JHS Hwediem"
+  },
+  {
+   "id": "45af50f84cfe7915fe",
+   "code": "F160506",
+   "area": "Trabuom",
+   "name": "Trabuom Palace"
+  },
+  {
+   "id": "f804c28f1fdd147d33",
+   "code": "F160601",
+   "area": "Jechi",
+   "name": "Aduwamase D/A Prim"
+  },
+  {
+   "id": "cff6f8e99f5af122c2",
+   "code": "F160602",
+   "area": "Jechi",
+   "name": "Meth Prim Jechi"
+  },
+  {
+   "id": "048d57b0713183e0ff",
+   "code": "F160603",
+   "area": "Jechi",
+   "name": "Jechi Meth Church"
+  },
+  {
+   "id": "7961bcd32543f5d3b9",
+   "code": "F160701",
+   "area": "Chichibon/Afrancho",
+   "name": "D/A Prim Chichibon"
+  },
+  {
+   "id": "333c3510af2e7c5522",
+   "code": "F160702",
+   "area": "Chichibon/Afrancho",
+   "name": "D/A Prim Afrancho"
+  },
+  {
+   "id": "0c5e9c588e8c3bbc06",
+   "code": "F160703",
+   "area": "Chichibon/Afrancho",
+   "name": "Meth Church Afrancho"
+  },
+  {
+   "id": "a8269f4aad2367943b",
+   "code": "F160801",
+   "area": "Nweneso No.1",
+   "name": "D/A JHS Nwineso No.1"
+  },
+  {
+   "id": "1de85a48a9a3622fde",
+   "code": "F160802",
+   "area": "Nweneso No.1",
+   "name": "Bragokrom Palace"
+  },
+  {
+   "id": "2d1ec985a20a034680",
+   "code": "F160803",
+   "area": "Nweneso No.1",
+   "name": "Nwineso No.1 D/A Prim"
+  },
+  {
+   "id": "386a346b98bf6cb6b7",
+   "code": "F160804",
+   "area": "Nweneso No.1",
+   "name": "R/C Church Nwineso No.1"
+  },
+  {
+   "id": "a8bccf6caabba08462",
+   "code": "F160901A",
+   "area": "Nweneso No.2",
+   "name": "Cocoa Shed Nwineso No.2"
+  },
+  {
+   "id": "d3b7e9265e14a8d831",
+   "code": "F160901B",
+   "area": "Nweneso No.2",
+   "name": "Cocoa Shed Nwineso No.2"
+  },
+  {
+   "id": "62c1bcffb6eb5f399c",
+   "code": "F160902",
+   "area": "Nweneso No.2",
+   "name": "Meth Prim Nwineso No.2"
+  },
+  {
+   "id": "894e3a437204f81282",
+   "code": "F161001",
+   "area": "Nweneso No.3",
+   "name": "R/C Prim Nwineso No.3"
+  },
+  {
+   "id": "1fa4fd46ec3703b0ec",
+   "code": "F161002",
+   "area": "Nweneso No.3",
+   "name": "D/A JHS Nwineso No.3"
+  },
+  {
+   "id": "124dcff64297afe686",
+   "code": "F161003",
+   "area": "Nweneso No.3",
+   "name": "D/A Prim Sehwi"
+  },
+  {
+   "id": "b5e78ab7d4a301e20f",
+   "code": "F161101A",
+   "area": "Kromoase",
+   "name": "Gospel Of God Ministry Kromase"
+  },
+  {
+   "id": "feefb0e5a5cf72af72",
+   "code": "F161101B",
+   "area": "Kromoase",
+   "name": "Gospel Of God Ministry Kromase"
+  },
+  {
+   "id": "6fdce8d87cc62584ac",
+   "code": "F161102A",
+   "area": "Kromoase",
+   "name": "Afasiebon Palace"
+  },
+  {
+   "id": "856bea59ad4e2ba164",
+   "code": "F161102B",
+   "area": "Kromoase",
+   "name": "Afasiebon Palace"
+  },
+  {
+   "id": "5198938d85baa7e896",
+   "code": "F161103A",
+   "area": "Kromoase",
+   "name": "Blessing Academy Krom"
+  },
+  {
+   "id": "ea5a1d95af1586ed6a",
+   "code": "F161103B",
+   "area": "Kromoase",
+   "name": "Blessing Academy Krom"
+  },
+  {
+   "id": "3b400fb3e0466fa53c",
+   "code": "F161104A",
+   "area": "Kromoase",
+   "name": "Kromoase D/A JHS"
+  },
+  {
+   "id": "57ad946cf4a68102e3",
+   "code": "F161104B",
+   "area": "Kromoase",
+   "name": "Kromoase D/A JHS"
+  },
+  {
+   "id": "af0f090018d3752dd4",
+   "code": "F161105",
+   "area": "Kromoase",
+   "name": "Deeper Life Church Kromoase"
+  },
+  {
+   "id": "3b9336501a7719d777",
+   "code": "F161106",
+   "area": "Kromoase",
+   "name": "Presby Church Kromoase"
+  },
+  {
+   "id": "b50dea937ebf483519",
+   "code": "F161107A",
+   "area": "Kromoase",
+   "name": "Santa Maria Sch Kotokuom"
+  },
+  {
+   "id": "9d19e5da55cb711854",
+   "code": "F161107B",
+   "area": "Kromoase",
+   "name": "Santa Maria Sch Kotokuom"
+  },
+  {
+   "id": "da8fde1cff07957c9a",
+   "code": "F161108A",
+   "area": "Kromoase",
+   "name": "Kromoase D/A Prim"
+  },
+  {
+   "id": "0a9d62ad48612fc9c4",
+   "code": "F161108B",
+   "area": "Kromoase",
+   "name": "Kromoase D/A Prim"
+  },
+  {
+   "id": "43cf3fcb725cc5591e",
+   "code": "F161201A",
+   "area": "Aburaso",
+   "name": "Meth Prim Aburaso"
+  },
+  {
+   "id": "39e4ea2c05328c4af6",
+   "code": "F161201B",
+   "area": "Aburaso",
+   "name": "Meth Prim Aburaso"
+  },
+  {
+   "id": "68e89906d33919175f",
+   "code": "F161202A",
+   "area": "Aburaso",
+   "name": "Pentecost Church Aburaso"
+  },
+  {
+   "id": "4ea45f0fe94be4d27f",
+   "code": "F161202B",
+   "area": "Aburaso",
+   "name": "Pentecost Church Aburaso"
+  },
+  {
+   "id": "a601e6f7f72a70e10f",
+   "code": "F161203A",
+   "area": "Aburaso",
+   "name": "Meth Church Aburaso"
+  },
+  {
+   "id": "384d7b652cb1ab7b61",
+   "code": "F161203B",
+   "area": "Aburaso",
+   "name": "Meth Church Aburaso"
+  },
+  {
+   "id": "2ff44c302fb43dcce9",
+   "code": "F161204",
+   "area": "Aburaso",
+   "name": "Assemblies Of God Aburaso"
+  },
+  {
+   "id": "3ad045bb8a3ef275c4",
+   "code": "F161205",
+   "area": "Aburaso",
+   "name": "Market Square Aburaso"
+  },
+  {
+   "id": "b365c88c6575d00a33",
+   "code": "F161206",
+   "area": "Aburaso",
+   "name": "Sofo Martin Church Adwaase"
+  },
+  {
+   "id": "8318a913226ed87b28",
+   "code": "F161207A",
+   "area": "Aburaso",
+   "name": "Aburaso Palace"
+  },
+  {
+   "id": "ad04f0085e90e77dbb",
+   "code": "F161207B",
+   "area": "Aburaso",
+   "name": "Aburaso Palace"
+  },
+  {
+   "id": "ca8bf3b540d33f53ea",
+   "code": "F161301A",
+   "area": "Akyeremade",
+   "name": "Akyeremade D/A JHS"
+  },
+  {
+   "id": "1fdc937ce4caaa9d71",
+   "code": "F161301B",
+   "area": "Akyeremade",
+   "name": "Akyeremade D/A JHS"
+  },
+  {
+   "id": "17a6cadb7464299bf1",
+   "code": "F161302A",
+   "area": "Akyeremade",
+   "name": "Calvery Church Akyeremade"
+  },
+  {
+   "id": "dd957f8bd94783325b",
+   "code": "F161302B",
+   "area": "Akyeremade",
+   "name": "Calvery Church Akyeremade"
+  },
+  {
+   "id": "023591c41a3a86a22b",
+   "code": "F161303",
+   "area": "Akyeremade",
+   "name": "Global Church Akyeremade"
+  },
+  {
+   "id": "aeb4944405887a232b",
+   "code": "F161304A",
+   "area": "Akyeremade",
+   "name": "D/A JHS Behenease"
+  },
+  {
+   "id": "683d0b2fb2d1357ca7",
+   "code": "F161304B",
+   "area": "Akyeremade",
+   "name": "D/A JHS Behenease"
+  },
+  {
+   "id": "f9f321781a01cdcf78",
+   "code": "F161305A",
+   "area": "Akyeremade",
+   "name": "D/A Prim Kwanwoma"
+  },
+  {
+   "id": "99f298031e404223eb",
+   "code": "F161305B",
+   "area": "Akyeremade",
+   "name": "D/A Prim Kwanwoma"
+  },
+  {
+   "id": "9a359b9540d9f557a6",
+   "code": "F161401",
+   "area": "Yabi",
+   "name": "D/A JHS Yabi"
+  },
+  {
+   "id": "0ceb127bbb2d6891ca",
+   "code": "F161402",
+   "area": "Yabi",
+   "name": "Meth Prim Yabi"
+  },
+  {
+   "id": "8db2352a3254e98a1e",
+   "code": "F161403A",
+   "area": "Yabi",
+   "name": "D/A Prim Yabi"
+  },
+  {
+   "id": "f4d919bb420d714e94",
+   "code": "F161403B",
+   "area": "Yabi",
+   "name": "D/A Prim Yabi"
+  },
+  {
+   "id": "ad08480c8133c27fab",
+   "code": "F161404",
+   "area": "Yabi",
+   "name": "Meth Prim Akosomo"
+  },
+  {
+   "id": "c744a040a9cc3d7520",
+   "code": "F161501",
+   "area": "Dida",
+   "name": "D/A Prim Takyiman"
+  },
+  {
+   "id": "84af23b59fc9462c2e",
+   "code": "F161502",
+   "area": "Dida",
+   "name": "D/A Prim Dida"
+  },
+  {
+   "id": "34eb9c9dab7e55d203",
+   "code": "F161601A",
+   "area": "Apemanim/Kokoben",
+   "name": "D/A Prim School Kokoben"
+  },
+  {
+   "id": "51bd91fc1477fe692d",
+   "code": "F161601B",
+   "area": "Apemanim/Kokoben",
+   "name": "D/A Prim School Kokoben"
+  },
+  {
+   "id": "b1be89a00781e3621a",
+   "code": "F161602",
+   "area": "Apemanim/Kokoben",
+   "name": "D/A Prim School Apimanim"
+  },
+  {
+   "id": "1b27b96c6d5779db49",
+   "code": "F161701A",
+   "area": "Darko/Bebu",
+   "name": "D/A JHS Bebu"
+  },
+  {
+   "id": "4ef336f9d13c384637",
+   "code": "F161701B",
+   "area": "Darko/Bebu",
+   "name": "D/A JHS Bebu"
+  },
+  {
+   "id": "d5dc493e495290cd15",
+   "code": "F161702A",
+   "area": "Darko/Bebu",
+   "name": "Catholic Church Bebu"
+  },
+  {
+   "id": "6c380bd3c54e063111",
+   "code": "F161702B",
+   "area": "Darko/Bebu",
+   "name": "Catholic Church Bebu"
+  },
+  {
+   "id": "8aca6e7eb0e70b96dd",
+   "code": "F161703A",
+   "area": "Darko/Bebu",
+   "name": "D/A JHS Darko"
+  },
+  {
+   "id": "c408b2cb696d1d84d9",
+   "code": "F161703B",
+   "area": "Darko/Bebu",
+   "name": "D/A JHS Darko"
+  },
+  {
+   "id": "50f8d978f74e7f5d90",
+   "code": "F161704",
+   "area": "Darko/Bebu",
+   "name": "D/A Prim Darko"
+  },
+  {
+   "id": "6dc9126f9328545799",
+   "code": "F161801A",
+   "area": "Ampabame No.2/Nkoransa",
+   "name": "D/A JHS Ampabame No.2"
+  },
+  {
+   "id": "f695642f70298439b7",
+   "code": "F161801B",
+   "area": "Ampabame No.2/Nkoransa",
+   "name": "D/A JHS Ampabame No.2"
+  },
+  {
+   "id": "e85fc7dfab4942b0f8",
+   "code": "F161802A",
+   "area": "Ampabame No.2/Nkoransa",
+   "name": "R/C Prim Ampabame No.2"
+  },
+  {
+   "id": "537f7323c06b368ec5",
+   "code": "F161802B",
+   "area": "Ampabame No.2/Nkoransa",
+   "name": "R/C Prim Ampabame No.2"
+  },
+  {
+   "id": "82c58d20179343978e",
+   "code": "F161803A",
+   "area": "Ampabame No.2/Nkoransa",
+   "name": "D/A Prim Nkoransa"
+  },
+  {
+   "id": "a99f844490bcf9b9cb",
+   "code": "F161803B",
+   "area": "Ampabame No.2/Nkoransa",
+   "name": "D/A Prim Nkoransa"
+  },
+  {
+   "id": "0c46d69f69106d86cc",
+   "code": "F161804A",
+   "area": "Ampabame No.2/Nkoransa",
+   "name": "D/A JHS Nkoransa"
+  },
+  {
+   "id": "6044beb3b6a4a02f85",
+   "code": "F161804B",
+   "area": "Ampabame No.2/Nkoransa",
+   "name": "D/A JHS Nkoransa"
+  },
+  {
+   "id": "024a1d14ba9a3bfacc",
+   "code": "F161805A",
+   "area": "Ampabame No.2/Nkoransa",
+   "name": "Pentecost Church Nkoransa"
+  },
+  {
+   "id": "655df50774b162613b",
+   "code": "F161805B",
+   "area": "Ampabame No.2/Nkoransa",
+   "name": "Pentecost Church Nkoransa"
+  },
+  {
+   "id": "aa87d9804599b1210a",
+   "code": "F161901A",
+   "area": "Apampatia/Hemang",
+   "name": "Market Square Apampatia"
+  },
+  {
+   "id": "337d7778c83601253e",
+   "code": "F161901B",
+   "area": "Apampatia/Hemang",
+   "name": "Market Square Apampatia"
+  },
+  {
+   "id": "8f1443bf90ff539d3f",
+   "code": "F161902A",
+   "area": "Apampatia/Hemang",
+   "name": "D/A Prim Apampatia"
+  },
+  {
+   "id": "ca5a8bf243228dca2c",
+   "code": "F161902B",
+   "area": "Apampatia/Hemang",
+   "name": "D/A Prim Apampatia"
+  },
+  {
+   "id": "655d94f677de5e7672",
+   "code": "F161903A",
+   "area": "Apampatia/Hemang",
+   "name": "D/A Prim Hemang"
+  },
+  {
+   "id": "e592513770c6321c19",
+   "code": "F161903B",
+   "area": "Apampatia/Hemang",
+   "name": "D/A Prim Hemang"
+  },
+  {
+   "id": "c15374139e80f8802d",
+   "code": "F161904A",
+   "area": "Apampatia/Hemang",
+   "name": "Catholic Church Hemang"
+  },
+  {
+   "id": "f310a77210df6886ed",
+   "code": "F161904B",
+   "area": "Apampatia/Hemang",
+   "name": "Catholic Church Hemang"
+  },
+  {
+   "id": "b4386a726089cc6a90",
+   "code": "F162001A",
+   "area": "Adumasa",
+   "name": "Educational Complex Adumasa"
+  },
+  {
+   "id": "a6c58fa894c251b8c4",
+   "code": "F162001B",
+   "area": "Adumasa",
+   "name": "Educational Complex Adumasa"
+  },
+  {
+   "id": "0674bac1bf5680926a",
+   "code": "F162002A",
+   "area": "Adumasa",
+   "name": "Presby JHS Adumasa"
+  },
+  {
+   "id": "1fc552821bb1799b18",
+   "code": "F162002B",
+   "area": "Adumasa",
+   "name": "Presby JHS Adumasa"
+  },
+  {
+   "id": "c20aafadf6e3a41cfc",
+   "code": "F162003A",
+   "area": "Adumasa",
+   "name": "Mango Down Afaatia"
+  },
+  {
+   "id": "9b1e3d8c810b74e7bb",
+   "code": "F162003B",
+   "area": "Adumasa",
+   "name": "Mango Down Afaatia"
+  },
+  {
+   "id": "5b6667d4249f274ff1",
+   "code": "F162004A",
+   "area": "Adumasa",
+   "name": "Saviour Church Adumasa"
+  },
+  {
+   "id": "b181c913cdbc5cbe1a",
+   "code": "F162004B",
+   "area": "Adumasa",
+   "name": "Saviour Church Adumasa"
+  },
+  {
+   "id": "73072b8b03397c9065",
+   "code": "F162101A",
+   "area": "Brofoyedru",
+   "name": "Pentecost Church Brofoyedru"
+  },
+  {
+   "id": "9d1ee8056738c00540",
+   "code": "F162101B",
+   "area": "Brofoyedru",
+   "name": "Pentecost Church Brofoyedru"
+  },
+  {
+   "id": "bbecb140149bdbfc78",
+   "code": "F162102A",
+   "area": "Brofoyedru",
+   "name": "D/A Prim Brofoyedru"
+  },
+  {
+   "id": "60717fdeea04db80d5",
+   "code": "F162102B",
+   "area": "Brofoyedru",
+   "name": "D/A Prim Brofoyedru"
+  },
+  {
+   "id": "d1e9f56d7984e980de",
+   "code": "F162103A",
+   "area": "Brofoyedru",
+   "name": "Presby Church Brofoyedru"
+  },
+  {
+   "id": "6710212604ecb00297",
+   "code": "F162103B",
+   "area": "Brofoyedru",
+   "name": "Presby Church Brofoyedru"
+  },
+  {
+   "id": "85dd633b528923237c",
+   "code": "F162104A",
+   "area": "Brofoyedru",
+   "name": "Palm Cottage Brofoyedru"
+  },
+  {
+   "id": "22abb3423e612f609e",
+   "code": "F162104B",
+   "area": "Brofoyedru",
+   "name": "Palm Cottage Brofoyedru"
+  },
+  {
+   "id": "dbfd1ea5e763048d5c",
+   "code": "F162105",
+   "area": "Brofoyedru",
+   "name": "Waakese Palace"
+  },
+  {
+   "id": "1794ff77b4b295804b",
+   "code": "F162106A",
+   "area": "Brofoyedru",
+   "name": "Deeper Life INT. Brofoyedru"
+  },
+  {
+   "id": "fbc65992b41a8131ba",
+   "code": "F162106B",
+   "area": "Brofoyedru",
+   "name": "Deeper Life INT. Brofoyedru"
+  },
+  {
+   "id": "8a06780d8bca3bdbbb",
+   "code": "F162201A",
+   "area": "Kotwi/Twindurase",
+   "name": "D/A Prim Twindurase"
+  },
+  {
+   "id": "eb30d7b2956bafc5d8",
+   "code": "F162201B",
+   "area": "Kotwi/Twindurase",
+   "name": "D/A Prim Twindurase"
+  },
+  {
+   "id": "97b8f517f1c4e8a0bb",
+   "code": "F162202A",
+   "area": "Kotwi/Twindurase",
+   "name": "D/A JHS Twindurase"
+  },
+  {
+   "id": "5b2714986a37c8b733",
+   "code": "F162202B",
+   "area": "Kotwi/Twindurase",
+   "name": "D/A JHS Twindurase"
+  },
+  {
+   "id": "81bbdbc4339241a3bd",
+   "code": "F162203A",
+   "area": "Kotwi/Twindurase",
+   "name": "D/A Prim Kotwi"
+  },
+  {
+   "id": "03d251014cbd008f98",
+   "code": "F162203B",
+   "area": "Kotwi/Twindurase",
+   "name": "D/A Prim Kotwi"
+  },
+  {
+   "id": "27728e1fe74c5d88b8",
+   "code": "F162204A",
+   "area": "Kotwi/Twindurase",
+   "name": "Chief Palace Kotwi"
+  },
+  {
+   "id": "09ea88e2c749a1ce25",
+   "code": "F162204B",
+   "area": "Kotwi/Twindurase",
+   "name": "Chief Palace Kotwi"
+  },
+  {
+   "id": "a59a1edac38a254e33",
+   "code": "F162205A",
+   "area": "Kotwi/Twindurase",
+   "name": "Say Adsam Sch Kotwi"
+  },
+  {
+   "id": "29ece31cb55e7ae2fe",
+   "code": "F162205B",
+   "area": "Kotwi/Twindurase",
+   "name": "Say Adsam Sch Kotwi"
+  },
+  {
+   "id": "f92feaa2e3b21958e4",
+   "code": "F162301A",
+   "area": "Trede/Akrofuom",
+   "name": "Area Council Office Sabin Akrofuom"
+  },
+  {
+   "id": "639c80dc66adf5a27d",
+   "code": "F162301B",
+   "area": "Trede/Akrofuom",
+   "name": "Area Council Office Sabin Akrofuom"
+  },
+  {
+   "id": "cabdba2bfeefd02b79",
+   "code": "F162302A",
+   "area": "Trede/Akrofuom",
+   "name": "Sabin Akrofuom Palace"
+  },
+  {
+   "id": "a806808879b34bbcb6",
+   "code": "F162302B",
+   "area": "Trede/Akrofuom",
+   "name": "Sabin Akrofuom Palace"
+  },
+  {
+   "id": "f8b99d9f64862a63e2",
+   "code": "F162303A",
+   "area": "Trede/Akrofuom",
+   "name": "D/A Prim Paa"
+  },
+  {
+   "id": "8f24b39f452b34fe7d",
+   "code": "F162303B",
+   "area": "Trede/Akrofuom",
+   "name": "D/A Prim Paa"
+  },
+  {
+   "id": "2a123d44899451ae80",
+   "code": "F162304A",
+   "area": "Trede/Akrofuom",
+   "name": "Carpenter Mu Krofofrom"
+  },
+  {
+   "id": "b6230c6a13e107f742",
+   "code": "F162304B",
+   "area": "Trede/Akrofuom",
+   "name": "Carpenter Mu Krofofrom"
+  },
+  {
+   "id": "59fbd2d0461478b211",
+   "code": "F162305A",
+   "area": "Trede/Akrofuom",
+   "name": "R/C Prim Trede"
+  },
+  {
+   "id": "46c869007f5af15c48",
+   "code": "F162305B",
+   "area": "Trede/Akrofuom",
+   "name": "R/C Prim Trede"
+  },
+  {
+   "id": "2a468b4397b2539c5d",
+   "code": "F162306A",
+   "area": "Trede/Akrofuom",
+   "name": "D/A Prim Esaase"
+  },
+  {
+   "id": "b529c202958800236d",
+   "code": "F162306B",
+   "area": "Trede/Akrofuom",
+   "name": "D/A Prim Esaase"
+  },
+  {
+   "id": "c05b132a858214b1bb",
+   "code": "F162307A",
+   "area": "Trede/Akrofuom",
+   "name": "R/C Prim Daboase"
+  },
+  {
+   "id": "a9e83f427feb0f7a12",
+   "code": "F162307B",
+   "area": "Trede/Akrofuom",
+   "name": "R/C Prim Daboase"
+  },
+  {
+   "id": "d348dc81deefbdd578",
+   "code": "F162308A",
+   "area": "Trede/Akrofuom",
+   "name": "D/A JHS Adum"
+  },
+  {
+   "id": "dcc770baff3af9c437",
+   "code": "F162308B",
+   "area": "Trede/Akrofuom",
+   "name": "D/A JHS Adum"
+  },
+  {
+   "id": "92792f1de11ceb3c52",
+   "code": "F162309A",
+   "area": "Trede/Akrofuom",
+   "name": "Atwima Kwanwoman SHS"
+  },
+  {
+   "id": "15831fa4b5c4df0418",
+   "code": "F162309B",
+   "area": "Trede/Akrofuom",
+   "name": "Atwima Kwanwoman SHS"
+  },
+  {
+   "id": "623803373d1393dde8",
+   "code": "F162310A",
+   "area": "Trede/Akrofuom",
+   "name": "Meth Day Care Center Krofofrom"
+  },
+  {
+   "id": "80be5438176d9ddab1",
+   "code": "F162310B",
+   "area": "Trede/Akrofuom",
+   "name": "Meth Day Care Center Krofofrom"
+  },
+  {
+   "id": "d362ab7bd413ee786e",
+   "code": "F162401A",
+   "area": "Ampabame No.1",
+   "name": "R/C Prim Ampabame No.1"
+  },
+  {
+   "id": "6fbff20b2775db1b60",
+   "code": "F162401B",
+   "area": "Ampabame No.1",
+   "name": "R/C Prim Ampabame No.1"
+  },
+  {
+   "id": "d3fac194643dc8e194",
+   "code": "F162402",
+   "area": "Ampabame No.1",
+   "name": "Kwaso Palace"
+  },
+  {
+   "id": "3e27f5903621e3d612",
+   "code": "F162403A",
+   "area": "Ampabame No.1",
+   "name": "R/C JHS Ampabame No.1"
+  },
+  {
+   "id": "a69d90f75932a12027",
+   "code": "F162403B",
+   "area": "Ampabame No.1",
+   "name": "R/C JHS Ampabame No.1"
+  },
+  {
+   "id": "492b30d5c70aad580d",
+   "code": "F162404A",
+   "area": "Ampabame No.1",
+   "name": "Ampabame No.1 Palace"
+  },
+  {
+   "id": "2634c059cacbde37c7",
+   "code": "F162404B",
+   "area": "Ampabame No.1",
+   "name": "Ampabame No.1 Palace"
+  },
+  {
+   "id": "0a75a138d584938854",
+   "code": "F162501A",
+   "area": "Kwanwoma/Aboabokese",
+   "name": "Presby Prim Kwanwoma"
+  },
+  {
+   "id": "41ece517cbc98e9821",
+   "code": "F162501B",
+   "area": "Kwanwoma/Aboabokese",
+   "name": "Presby Prim Kwanwoma"
+  },
+  {
+   "id": "cb74f6a7bdc4f5b3c0",
+   "code": "F162502A",
+   "area": "Kwanwoma/Aboabokese",
+   "name": "Cocoa Shed Kwanwoma"
+  },
+  {
+   "id": "4f7aadce7b7a5ffc8a",
+   "code": "F162502B",
+   "area": "Kwanwoma/Aboabokese",
+   "name": "Cocoa Shed Kwanwoma"
+  },
+  {
+   "id": "aac9291b55a08154f4",
+   "code": "F162503A",
+   "area": "Kwanwoma/Aboabokese",
+   "name": "Duropaam Bus Stop"
+  },
+  {
+   "id": "9a6748bda6dc9f3162",
+   "code": "F162503B",
+   "area": "Kwanwoma/Aboabokese",
+   "name": "Duropaam Bus Stop"
+  },
+  {
+   "id": "374c867ca5b4386bd4",
+   "code": "F162504A",
+   "area": "Kwanwoma/Aboabokese",
+   "name": "Pentecost Church Aboabokese"
+  },
+  {
+   "id": "23fc2322b054fa8f8c",
+   "code": "F162504B",
+   "area": "Kwanwoma/Aboabokese",
+   "name": "Pentecost Church Aboabokese"
+  },
+  {
+   "id": "587cc77f4da52911d6",
+   "code": "F162505A",
+   "area": "Kwanwoma/Aboabokese",
+   "name": "Aboabokese D/A JHS"
+  },
+  {
+   "id": "b19f4bfa1db9e5e73b",
+   "code": "F162505B",
+   "area": "Kwanwoma/Aboabokese",
+   "name": "Aboabokese D/A JHS"
+  },
+  {
+   "id": "890a09f70de7ab8b22",
+   "code": "F162601A",
+   "area": "Mpatasie",
+   "name": "R/C Prim Mpatasie"
+  },
+  {
+   "id": "fa2ae3aecd1ee220a3",
+   "code": "F162601B",
+   "area": "Mpatasie",
+   "name": "R/C Prim Mpatasie"
+  },
+  {
+   "id": "044ce599fc02da6bfe",
+   "code": "F162602A",
+   "area": "Mpatasie",
+   "name": "R/C JHS Mpatasie"
+  },
+  {
+   "id": "410fedc92748a8ffc3",
+   "code": "F162602B",
+   "area": "Mpatasie",
+   "name": "R/C JHS Mpatasie"
+  },
+  {
+   "id": "7ad7a8ed018bc36c1c",
+   "code": "F162603",
+   "area": "Mpatasie",
+   "name": "D/A Prim Deikrom"
+  },
+  {
+   "id": "f287667e07e05befb5",
+   "code": "F162604",
+   "area": "Mpatasie",
+   "name": "D/A Prim Amoafo"
+  },
+  {
+   "id": "be8cf0ecf7e2e2efe2",
+   "code": "F162605",
+   "area": "Mpatasie",
+   "name": "D/A Prim Nyinase"
+  },
+  {
+   "id": "d01a483ddebc144b71",
+   "code": "F162606",
+   "area": "Mpatasie",
+   "name": "D/A Prim Winsa"
+  },
+  {
+   "id": "1a33ed8e87e9a2a747",
+   "code": "F162701",
+   "area": "Ejuampong",
+   "name": "Meth Primary Ejuampong"
+  },
+  {
+   "id": "9cbf0f5bb60e7b9666",
+   "code": "F162702",
+   "area": "Ejuampong",
+   "name": "D/A JHS Ejuampong"
+  },
+  {
+   "id": "5806457b61351a7647",
+   "code": "F162801",
+   "area": "Abotiaso",
+   "name": "D/A JHS Abotiaso"
+  },
+  {
+   "id": "508fe8c4cd852eb0e7",
+   "code": "F162802",
+   "area": "Abotiaso",
+   "name": "D/A Prim Betenease"
+  },
+  {
+   "id": "354d33b53f9cc2acc8",
+   "code": "F162803A",
+   "area": "Abotiaso",
+   "name": "D/A JHS Kentenkyiren"
+  },
+  {
+   "id": "d94ab7674e65aedc60",
+   "code": "F162803B",
+   "area": "Abotiaso",
+   "name": "D/A JHS Kentenkyiren"
+  },
+  {
+   "id": "50dcf85f32b130ac45",
+   "code": "F162901",
+   "area": "Afrancho",
+   "name": "R/C Prim Afrancho"
+  },
+  {
+   "id": "b8682944a41e087578",
+   "code": "F162902",
+   "area": "Afrancho",
+   "name": "R/C Prim Akutuoase"
+  },
+  {
+   "id": "cbfcd34c5acaaf9c6e",
+   "code": "F162903",
+   "area": "Afrancho",
+   "name": "R/C Prim Odumasi"
+  },
+  {
+   "id": "090f6981dc4f864c6a",
+   "code": "F163001A",
+   "area": "Bekwaimin",
+   "name": "D/A Prim Bekwaimin"
+  },
+  {
+   "id": "ff0f743c937932597d",
+   "code": "F163001B",
+   "area": "Bekwaimin",
+   "name": "D/A Prim Bekwaimin"
+  },
+  {
+   "id": "7f4fce985a5d91bf42",
+   "code": "F163002A",
+   "area": "Bekwaimin",
+   "name": "Teachers' Quarters Bekwaimin"
+  },
+  {
+   "id": "5b6e10a575c4d448b8",
+   "code": "F163002B",
+   "area": "Bekwaimin",
+   "name": "Teachers' Quarters Bekwaimin"
+  },
+  {
+   "id": "bd21ee37ec98772150",
+   "code": "F163003A",
+   "area": "Bekwaimin",
+   "name": "D/A Prim Kyekyewere"
+  },
+  {
+   "id": "07941e885d8fe151a1",
+   "code": "F163003B",
+   "area": "Bekwaimin",
+   "name": "D/A Prim Kyekyewere"
+  },
+  {
+   "id": "54da8a3f41c29d1052",
+   "code": "F163004A",
+   "area": "Bekwaimin",
+   "name": "Habitat Kyekyewere"
+  },
+  {
+   "id": "56ae5cab93e651c854",
+   "code": "F163004B",
+   "area": "Bekwaimin",
+   "name": "Habitat Kyekyewere"
+  },
+  {
+   "id": "6264cfe0b771d93124",
+   "code": "F163101",
+   "area": "Ahenema Kokoben",
+   "name": "SDA Ch. Ahenema Kokoben"
+  },
+  {
+   "id": "e84a44f0ffc6b366c3",
+   "code": "F163102",
+   "area": "Ahenema Kokoben",
+   "name": "Ahenema Kokoben Palace"
+  },
+  {
+   "id": "a399208239a5f7d1cf",
+   "code": "F163103",
+   "area": "Ahenema Kokoben",
+   "name": "Pentecost Church Ahenema Kokoben"
+  },
+  {
+   "id": "72a39a06e6c64cc362",
+   "code": "F163104",
+   "area": "Ahenema Kokoben",
+   "name": "Sakora Park Ahenema Kokoben"
+  },
+  {
+   "id": "8589e0a1ecc1385354",
+   "code": "F163105A",
+   "area": "Ahenema Kokoben",
+   "name": "Quality INT Sch A. Kokoben"
+  },
+  {
+   "id": "d1b42d8655c6f86778",
+   "code": "F163105B",
+   "area": "Ahenema Kokoben",
+   "name": "Quality INT Sch A. Kokoben"
+  },
+  {
+   "id": "072d67216e5d566d43",
+   "code": "F163106",
+   "area": "Ahenema Kokoben",
+   "name": "Fralina Ahenema Kokoben"
+  },
+  {
+   "id": "0e2dc8b4a2706765e5",
+   "code": "F163107A",
+   "area": "Ahenema Kokoben",
+   "name": "Peace Way INT. Sch Ahenema Kokoben"
+  },
+  {
+   "id": "2fbbebeb4ab452eb21",
+   "code": "F163107B",
+   "area": "Ahenema Kokoben",
+   "name": "Peace Way INT. Sch Ahenema Kokoben"
+  },
+  {
+   "id": "3d5732c4c78b56d430",
+   "code": "F163108",
+   "area": "Ahenema Kokoben",
+   "name": "Kate Junction Ahenema Kokoben"
+  },
+  {
+   "id": "1bd2a5bd74a7b437a8",
+   "code": "F163109A",
+   "area": "Ahenema Kokoben",
+   "name": "Twins INT Sch A. Kokoben"
+  },
+  {
+   "id": "471761032eb5056c78",
+   "code": "F163109B",
+   "area": "Ahenema Kokoben",
+   "name": "Twins INT Sch A. Kokoben"
+  },
+  {
+   "id": "ca4620a4707aa68fbe",
+   "code": "F163110A",
+   "area": "Ahenema Kokoben",
+   "name": "D/A Prim Ahenema Kokoben"
+  },
+  {
+   "id": "0d7ab85426989b5f99",
+   "code": "F163110B",
+   "area": "Ahenema Kokoben",
+   "name": "D/A Prim Ahenema Kokoben"
+  },
+  {
+   "id": "38bd11872026d6730c",
+   "code": "F163111",
+   "area": "Ahenema Kokoben",
+   "name": "Island City Ahenema Kokokoben"
+  },
+  {
+   "id": "5968e72b1ae588c76b",
+   "code": "F163112A",
+   "area": "Ahenema Kokoben",
+   "name": "God's Heritage Int.sch. Old A.kokoben"
+  },
+  {
+   "id": "12af60bce5e9c4e2a5",
+   "code": "F163112B",
+   "area": "Ahenema Kokoben",
+   "name": "God's Heritage Int.sch. Old A.kokoben"
+  },
+  {
+   "id": "31e1c51893297644ef",
+   "code": "F163201",
+   "area": "Krofrom",
+   "name": "D/A Prim Kroforom"
+  },
+  {
+   "id": "b4ec999451da8657d8",
+   "code": "F163202",
+   "area": "Krofrom",
+   "name": "Presby Church Krofofrom"
+  },
+  {
+   "id": "a836abb9d7fb2ef315",
+   "code": "F163203A",
+   "area": "Krofrom",
+   "name": "Assemblies Of God Ch Krofofrom"
+  },
+  {
+   "id": "a225cb9bafb3e075e7",
+   "code": "F163203B",
+   "area": "Krofrom",
+   "name": "Assemblies Of God Ch Krofofrom"
+  },
+  {
+   "id": "05e94cc02408e0b832",
+   "code": "F163204A",
+   "area": "Krofrom",
+   "name": "Pentecost Church Krofofrom"
+  },
+  {
+   "id": "c6edfc60540d65395b",
+   "code": "F163204B",
+   "area": "Krofrom",
+   "name": "Pentecost Church Krofofrom"
+  },
+  {
+   "id": "8d4155f685b7a2a31e",
+   "code": "F163301A",
+   "area": "Ampayoo",
+   "name": "Consark INT. Sch Ampeyoo"
+  },
+  {
+   "id": "1973def13d812f90c2",
+   "code": "F163301B",
+   "area": "Ampayoo",
+   "name": "Consark INT. Sch Ampeyoo"
+  },
+  {
+   "id": "f95da463655e7ed599",
+   "code": "F163302A",
+   "area": "Ampayoo",
+   "name": "Ampeyoo Palace"
+  },
+  {
+   "id": "2ccef523b88e7a70f0",
+   "code": "F163302B",
+   "area": "Ampayoo",
+   "name": "Ampeyoo Palace"
+  },
+  {
+   "id": "32c7781ef6db7caa70",
+   "code": "F163303A",
+   "area": "Ampayoo",
+   "name": "Topman Educational Centre"
+  },
+  {
+   "id": "1082e481fdd967ab2d",
+   "code": "F163303B",
+   "area": "Ampayoo",
+   "name": "Topman Educational Centre"
+  },
+  {
+   "id": "a812ce512093813e75",
+   "code": "F163304A",
+   "area": "Ampayoo",
+   "name": "Baah Memorial School Apaaso"
+  },
+  {
+   "id": "f1a52bcdb168ac1bf0",
+   "code": "F163304B",
+   "area": "Ampayoo",
+   "name": "Baah Memorial School Apaaso"
+  },
+  {
+   "id": "a96ec68ca516b446c7",
+   "code": "F163305A",
+   "area": "Ampayoo",
+   "name": "D/A Prim Asaago"
+  },
+  {
+   "id": "10c047aabfb95c603e",
+   "code": "F163305B",
+   "area": "Ampayoo",
+   "name": "D/A Prim Asaago"
+  },
+  {
+   "id": "787d38a791f89443de",
+   "code": "F163306A",
+   "area": "Ampayoo",
+   "name": "Odaso Palace"
+  },
+  {
+   "id": "89b739d3f503ec4edd",
+   "code": "F163306B",
+   "area": "Ampayoo",
+   "name": "Odaso Palace"
+  }
+ ],
+ "results": {},
+ "audit": [],
+ "settings": {
+  "electionName": "NDC Atwima Kwanwoma \u2014 Vice Chairman Election",
+  "resultsOpen": true
+ }
+}

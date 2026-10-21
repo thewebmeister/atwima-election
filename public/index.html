@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NDC Atwima Kwanwoma — Vice Chairman Collation</title>
+<link rel="icon" href="/img/favicon.png">
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/app.css?v=16">
+</head>
+<body>
+<div id="boot" class="boot-screen">
+  <img src="/img/logo.png" alt="NDC" class="boot-logo" width="48" height="48" decoding="async">
+  <div class="boot-text">Loading collation system…</div>
+</div>
+
+<main id="view-login" class="login-wrap hidden" aria-label="Sign in">
+  <div class="login-center">
+
+    <div class="login-card">
+      <span class="login-accent" aria-hidden="true"></span>
+
+      <div class="login-brand">
+        <img src="/img/logo.png" alt="NDC" class="login-logo" width="44" height="44" decoding="async">
+        <div class="login-brand-text">
+          <strong>NDC Atwima Kwanwoma</strong>
+          <span>Constituency Executives Elections - 2026</span>
+        </div>
+      </div>
+
+      <h1 class="login-heading">Sign in</h1>
+      <p class="login-intro">Enter the credentials issued to you by the System Administrator.</p>
+
+      <form id="loginForm" class="login-form" autocomplete="on">
+        <div class="field">
+          <label for="loginUsername">Username</label>
+          <input id="loginUsername" name="username" autocomplete="username" required
+                 placeholder="e.g. officer" spellcheck="false" autocapitalize="none">
+        </div>
+        <div class="field">
+          <label for="loginPassword">Password</label>
+          <div class="pw-field">
+            <input id="loginPassword" name="password" type="password" autocomplete="current-password" required placeholder="Enter your password">
+            <button type="button" class="pw-toggle" id="pwToggle" aria-label="Show password" aria-pressed="false">
+              <svg viewBox="0 0 16 16" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1.4 8S3.9 3.6 8 3.6 14.6 8 14.6 8 12.1 12.4 8 12.4 1.4 8 1.4 8z"/><circle cx="8" cy="8" r="2.1"/></svg>
+            </button>
+          </div>
+        </div>
+        <div id="loginError" class="alert error hidden" role="alert"></div>
+        <button class="btn primary block login-submit" id="loginBtn" type="submit">Sign in</button>
+      </form>
+
+      <p class="login-note">
+        <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.2" y="7" width="9.6" height="6.6" rx="1.4"/><path d="M5.6 7V5.2a2.4 2.4 0 014.8 0V7"/></svg>
+        Authorised users only — every sign-in is recorded in the audit trail.
+      </p>
+    </div>
+
+    <p class="login-foot">
+      Vice Chairman election collation &middot; National Democratic Congress, Ashanti Region
+    </p>
+  </div>
+</main>
+
+<div id="view-main" class="app-shell hidden">
+  <div id="sidebarBackdrop" class="sidebar-backdrop hidden"></div>
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+      <div class="sidebar-head">
+        <img src="/img/logo.png" alt="NDC" class="sidebar-logo" width="34" height="34" decoding="async">
+        <div class="sidebar-brand">
+          <strong>NDC Atwima Kwanwoma</strong>
+          <span>Vice Chairman &middot; 2026</span>
+        </div>
+      </div>
+      <nav id="tabs" class="sidebar-nav"></nav>
+      <div class="sidebar-foot">
+        <div class="sidebar-user">
+          <span id="sideInitials" class="avatar"></span>
+          <div class="sidebar-user-meta"><strong id="sideName"></strong><small id="sideRole"></small></div>
+        </div>
+        <button class="btn ghost sidebar-logout" data-action="logout-side">Sign out</button>
+      </div>
+    </div>
+  </aside>
+  <div class="main-wrap">
+    <header class="topbar">
+      <button id="menuBtn" class="menu-btn" aria-label="Toggle menu" aria-expanded="true">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="topbar-left">
+        <img src="/img/logo.png" alt="NDC" class="topbar-logo" width="26" height="26" decoding="async">
+        <div class="topbar-title">
+          <strong id="pageTitle">NDC Atwima Kwanwoma</strong>
+          <span>Constituency Executives Elections - 2026</span>
+        </div>
+      </div>
+      <div class="topbar-right">
+        <span id="liveBadge" class="live-badge"><i></i>Live</span>
+        <span class="build-chip" id="buildChip" title="Running build">v16</span>
+        <span id="entryStatus" class="pill soft" title="Result entry status"></span>
+        <div class="usermenu">
+          <button id="userBtn" class="user-btn" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="userDropdown"><span id="userInitials" class="avatar"></span><span class="user-meta"><strong id="userName"></strong><small id="userRole"></small></span><span class="caret">▾</span></button>
+
+        </div>
+      </div>
+    </header>
+    <main id="content" class="content"></main>
+    <footer class="footer">
+      <span>NDC Atwima Kwanwoma &middot; Vice Chairman Election Collation System</span>
+      <span id="footerUser"></span>
+    </footer>
+  </div>
+</div>
+
+<div id="toast" class="toast hidden"></div>
+<div id="modalRoot"></div>
+
+<script src="/js/helpers.js?v=16"></script>
+<script src="/js/charts.js?v=16"></script>
+<script src="/js/auth.js?v=16"></script>
+<script src="/js/entry.js?v=16"></script>
+<script src="/js/officer.js?v=16"></script>
+<script src="/js/infographics.js?v=16"></script>
+<script src="/js/admin.js?v=16"></script>
+<script src="/js/app.js?v=16"></script>
+<script>
+/* If the browser is still running an older cached script, reload once. */
+(function () {
+  try {
+    // A browser can hold an old index.html while loading the new scripts (or the
+    // reverse). If the two disagree, refresh once with a cache-buster so the page
+    // and the code always match.
+    const chip = document.getElementById('buildChip');
+    if (typeof H !== 'undefined' && H && H.BUILD && chip &&
+        chip.textContent.trim() !== 'v' + H.BUILD && !sessionStorage.getItem('ndc_mismatch')) {
+      sessionStorage.setItem('ndc_mismatch', '1');
+      location.replace(location.pathname + '?r=' + Date.now());
+      return;
+    }
+    if (typeof H !== 'undefined' && H && H.BUILD && chip) sessionStorage.removeItem('ndc_mismatch');
+
+    if (typeof H !== 'undefined' && H && typeof H.watchTables === 'function') {
+      sessionStorage.removeItem('ndc_stale');
+    } else if (!sessionStorage.getItem('ndc_stale')) {
+      sessionStorage.setItem('ndc_stale', '1');
+      location.reload();
+    } else if (typeof H === 'undefined' || !H.watchTables) {
+      /* stale page held by the browser: H exists but this build differs */
+      sessionStorage.removeItem('ndc_stale');
+      location.replace(location.pathname + '?r=' + Date.now());
+    }
+  } catch (e) { /* ignore */ }
+})();
+</script>
+
+  <!-- Account menu. Deliberately outside <header>: the top bar is height-locked with
+       overflow:hidden, which would clip a dropdown positioned inside it. -->
+  <div id="userDropdown" class="dropdown hidden" role="menu" aria-labelledby="userBtn">
+    <div class="dropdown-head" id="dropdownHead"></div>
+    <button type="button" role="menuitem" data-action="password">Change password</button>
+    <button type="button" role="menuitem" data-action="logout" class="danger">Sign out</button>
+  </div>
+</body>
+</html>

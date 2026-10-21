@@ -1,0 +1,15 @@
+{
+  "name": "atwima-kwanwoma-election",
+  "version": "1.0.0",
+  "description": "NDC Atwima Kwanwoma Constituency Delegates Conference - Vice Chairman election collation system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "node server.js",
+    "deps": "npm install --no-audit --no-fund && rm -rf vendor/deps && mkdir -p vendor && mv node_modules vendor/deps"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.23.1"
+  }
+}
